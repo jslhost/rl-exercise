@@ -21,7 +21,7 @@ epsilon = 1.0  # Taux d'exploration initial
 max_epsilon = 1.0
 min_epsilon = 0.01
 decay_rate = 0.005  # Décroissance de l'exploration
-total_episodes = 2000
+total_episodes = 10_000
 
 # 4. Boucle d'apprentissage
 rewards = []
